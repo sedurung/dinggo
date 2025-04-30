@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Berita Hari Ini - Portal Informasi Terkini</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 15px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav {
+      background-color: #34495e;
+      padding: 10px 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 15px;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .main-content {
+      flex: 3;
+      padding: 10px;
+    }
+
+    .sidebar {
+      flex: 1;
+      padding: 10px;
+      background-color: #ecf0f1;
+      margin-left: 10px;
+    }
+
+    article {
+      margin-bottom: 30px;
+    }
+
+    article h2 {
+      margin-bottom: 10px;
+      color: #2980b9;
+    }
+
+    article p {
+      text-align: justify;
+    }
+
+    .footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .sidebar {
+        margin-left: 0;
+        margin-top: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Portal Berita Terkini</h1>
+</header>
+
+<nav>
+  <a href="#">Beranda</a>
+  <a href="#">Nasional</a>
+  <a href="#">Internasional</a>
+  <a href="#">Ekonomi</a>
+  <a href="#">Teknologi</a>
+</nav>
+
+<div class="container">
+  <div class="main-content">
+
+    <article>
+      <h2>Pemerintah Kembali Naikkan Subsidi Energi di Tahun 2025</h2>
+      <p>
+        Dalam rangka menstabilkan harga BBM dan listrik, pemerintah memutuskan untuk meningkatkan subsidi energi sebesar 15% pada APBN 2025. Kebijakan ini diambil setelah mempertimbangkan tekanan inflasi global dan kenaikan harga minyak mentah internasional.
+      </p>
+    </article>
+
+    <article>
+      <h2>Startup Teknologi Asal Indonesia Masuk Daftar Forbes Asia 30 Under 30</h2>
+      <p>
+        Sebuah startup pendidikan digital asal Bandung berhasil menembus daftar bergengsi Forbes Asia 30 Under 30 kategori edukasi. Perusahaan ini dikenal karena platform belajar daring yang menjangkau lebih dari 2 juta pelajar di Asia Tenggara.
+      </p>
+    </article>
+
+    <article>
+      <h2>Cuaca Ekstrem Melanda Sejumlah Wilayah Indonesia</h2>
+      <p>
+        BMKG memperingatkan potensi hujan lebat dan angin kencang di beberapa wilayah Indonesia, termasuk Sumatera Barat, Jawa Tengah, dan Kalimantan Selatan. Masyarakat diimbau waspada terhadap potensi banjir dan longsor.
+      </p>
+    </article>
+
+  </div>
+
+  <aside class="sidebar">
+    <h3>Berita Populer</h3>
+    <ul>
+      <li><a href="#">Harga Emas Dunia Naik, Dampaknya ke Pasar Lokal</a></li>
+      <li><a href="#">Timnas Indonesia Lolos ke Final AFF U-23</a></li>
+      <li><a href="#">Tips Menjaga Keuangan Stabil di Masa Inflasi</a></li>
+      <li><a href="#">Fitur Baru WhatsApp yang Perlu Kamu Tahu</a></li>
+    </ul>
+  </aside>
+</div>
+
+<footer class="footer">
+  <p>&copy; 2025 Portal Berita Terkini. Semua hak dilindungi.</p>
+</footer>
+
+</body>
+</html>
